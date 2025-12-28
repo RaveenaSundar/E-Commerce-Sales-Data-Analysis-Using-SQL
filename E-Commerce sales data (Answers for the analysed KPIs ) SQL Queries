@@ -38,6 +38,29 @@
   GROUP BY MONTH(TransactionDate)
   ORDER BY month;
 
-7. Top customers by total spend  
-   
-8. Orders by country  
+7) Top customers by total spend
+   SELECT 
+    CustomerID,
+    SUM(Quantity * Price * (1 - Discount)) AS total_spent
+  FROM ecommerce_sales_data
+  GROUP BY CustomerID
+  ORDER BY total_spent DESC
+  LIMIT 5;
+
+8) Orders by country  
+   SELECT 
+    Country,
+    COUNT(DISTINCT TransactionID) AS total_orders
+FROM ecommerce_sales_data
+GROUP BY Country
+ORDER BY total_orders DESC;
+
+9)Total Quantity of Products Sold
+  SELECT 
+    SUM(Quantity) AS total_products_sold
+FROM ecommerce_sales_data;
+
+
+
+
+
