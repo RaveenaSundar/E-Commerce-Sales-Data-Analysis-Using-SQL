@@ -47,13 +47,13 @@
   ORDER BY total_spent DESC
   LIMIT 5;
 
-8) Orders by country  
-   SELECT 
-    Country,
+8) Orders by Customer Location
+   SELECT  
+    CustomerLocation,
     COUNT(DISTINCT TransactionID) AS total_orders
-FROM ecommerce_sales_data
-GROUP BY Country
-ORDER BY total_orders DESC;
+   FROM ecommerce_sales_data
+   GROUP BY CustomerLocation
+   ORDER BY total_orders DESC;
 
 9)Total Quantity of Products Sold
   SELECT 
