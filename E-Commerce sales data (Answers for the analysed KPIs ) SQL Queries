@@ -1,8 +1,43 @@
-1. Total number of orders  
-2. Total revenue generated  
-3. Average Order Value (AOV)  
-4. Top 5 best-selling products  
-5. Revenue by product category  
-6. Monthly sales trend  
+1) Total Number of Orders
+   SELECT COUNT(DISTINCT TransactionID) AS total_orders
+   FROM ecommerce_sales_data;
+
+2) Total revenue generated
+   SELECT 
+    SUM(Quantity * Price * (1 - Discount)) AS total_revenue
+  FROM ecommerce_sales_data;
+
+3) Average Order Value (AOV) 
+   SELECT 
+    SUM(Quantity * Price * (1 - Discount)) / COUNT(DISTINCT TransactionID) 
+        AS avg_order_value
+   FROM ecommerce_sales_data;
+
+4) Top 5 best-selling products
+   SELECT 
+      ProductID,
+     SUM(Quantity) AS total_quantity_sold
+  FROM ecommerce_sales_data
+  GROUP BY ProductID
+  ORDER BY total_quantity_sold DESC
+  LIMIT 5;
+
+5) Revenue by product category
+   SELECT 
+     ProductCategory,
+     SUM(Quantity * Price * (1 - Discount)) AS category_revenue
+  FROM ecommerce_sales_data
+  GROUP BY ProductCategory
+ ORDER BY category_revenue DESC;
+
+6) Monthly sales trend 
+   SELECT 
+    MONTH(TransactionDate) AS month,
+    SUM(Quantity * Price * (1 - Discount)) AS monthly_sales
+  FROM ecommerce_sales_data
+  GROUP BY MONTH(TransactionDate)
+  ORDER BY month;
+
 7. Top customers by total spend  
+   
 8. Orders by country  
