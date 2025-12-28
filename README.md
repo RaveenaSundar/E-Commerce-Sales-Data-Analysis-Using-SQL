@@ -38,7 +38,8 @@ The following key performance indicators (KPIs) were calculated using SQL:
 5. Revenue by product category  
 6. Monthly sales trend  
 7. Top customers by total spend  
-8. Orders by country  
+8. Orders by customer location
+9. total quantity of product sold 
 
   
 
