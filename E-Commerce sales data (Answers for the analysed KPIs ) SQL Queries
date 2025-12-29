@@ -2,9 +2,6 @@
    SELECT COUNT(DISTINCT TransactionID) AS total_orders
    FROM ecommerce_sales_data;
 
-    
- 
-
 2) Total revenue generated
    SELECT 
     SUM(Quantity * Price * (1 - Discount)) AS total_revenue
