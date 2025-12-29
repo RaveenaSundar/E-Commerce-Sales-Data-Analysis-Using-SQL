@@ -4,7 +4,7 @@
 This project mainly focuses on analyzing e-commerce sales data using SQL to understand overall business performance and how customers purchase products. The analysis is performed on a structured CSV dataset that contains information about orders, products, customers, and sales transactions.
 
 ## Tools & Technologies:
-- **SQL** (MySQL / PostgreSQL / SQLite)
+- **SQL** (Oracle)
 - **Dataset Format:** CSV
 - **Source:** Kaggle (E-Commerce Sales Dataset)
 
@@ -39,7 +39,18 @@ The following key performance indicators (KPIs) were calculated using SQL:
 6. Monthly sales trend  
 7. Top customers by total spend  
 8. Orders by customer location
-9. total quantity of product sold 
+9. total quantity of product sold
+
+ ## Key Insights Summary
+
+Identified total revenue and overall order volume
+Found top-selling products and high-revenue categories
+Analyzed monthly sales trends to understand performance over time
+Observed location-wise order distribution across customer regions
+Measured total quantity of products sold to assess overall sales volume
+
+## Conclusion
+Through this project, I have applied SQL to analyze e-commerce sales data and extract valuable business insights. It showcases my foundational SQL skills and my ability to approach data analysis from a business perspective.
 
   
 
