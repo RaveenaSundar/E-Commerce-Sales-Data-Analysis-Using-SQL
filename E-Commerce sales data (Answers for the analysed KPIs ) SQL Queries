@@ -1,7 +1,7 @@
 1) Total Number of Orders
    SELECT COUNT(DISTINCT TransactionID) AS total_orders
    FROM ecommerce_sales_data;
- 
+
     
  
 
