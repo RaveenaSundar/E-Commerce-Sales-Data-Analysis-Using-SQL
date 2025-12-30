@@ -1,15 +1,15 @@
-# E-Commerce-Sales-Data-Analysis-Using-SQL
+ E-Commerce-Sales-Data-Analysis-Using-SQL
 
-## About:
+ About:
 This project mainly focuses on analyzing e-commerce sales data using SQL to understand overall business performance and how customers purchase products. The analysis is performed on a structured CSV dataset that contains information about orders, products, customers, and sales transactions.
 
-## Tools & Technologies:
+ Tools & Technologies:
 - **SQL** (Oracle)
 - **Dataset Format:** CSV
 - **Source:** Kaggle (E-Commerce Sales Dataset)
 
 
-## Dataset Description
+ Dataset Description
 The dataset used in this project is stored in CSV format and includes the following key columns:
 - Customer ID
 - Product ID
@@ -20,7 +20,7 @@ The dataset used in this project is stored in CSV format and includes the follow
 - Transaction date
 - Customer Location
 
-## Business Objectives
+ Business Objectives
 The main objectives of this project are:
 - To analyze overall sales performance
 - To calculate key business KPIs using SQL
@@ -28,7 +28,7 @@ The main objectives of this project are:
 - To identify top products and revenue trends
 
 
-## Key KPIs Analyzed
+ Key KPIs Analyzed
 The following key performance indicators (KPIs) were calculated using SQL:
 
 1. Total number of orders  
@@ -42,7 +42,7 @@ The following key performance indicators (KPIs) were calculated using SQL:
 9. total quantity of product sold
 
 
- ## Key Insights Summary
+  Key Insights Summary
 
 Identified total revenue and overall order volume
 Found top-selling products and high-revenue categories
@@ -50,7 +50,7 @@ Analyzed monthly sales trends to understand performance over time
 Observed location-wise order distribution across customer regions
 Measured total quantity of products sold to assess overall sales volume
 
-## Conclusion
+ Conclusion
 Through this project, I have applied SQL to analyze e-commerce sales data and extract valuable business insights. It showcases my foundational SQL skills and my ability to approach data analysis from a business perspective.
 
   
