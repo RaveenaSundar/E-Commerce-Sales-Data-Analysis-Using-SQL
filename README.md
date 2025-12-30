@@ -43,11 +43,11 @@ The following key performance indicators (KPIs) were calculated using SQL:
 
  ## Key Insights Summary
 
-Identified total revenue and overall order volume
-Found top-selling products and high-revenue categories
-Analyzed monthly sales trends to understand performance over time
-Observed location-wise order distribution across customer regions
-Measured total quantity of products sold to assess overall sales volume
+  -Identified total revenue and overall order volume
+  -Found top-selling products and high-revenue categories
+  -Analyzed monthly sales trends to understand performance over time
+  -Observed location-wise order distribution across customer regions
+  -Measured total quantity of products sold to assess overall sales volume
 
  ## Conclusion
 Through this project, I have applied SQL to analyze e-commerce sales data and extract valuable business insights. It showcases my foundational SQL skills and my ability to approach data analysis from a business perspective.
