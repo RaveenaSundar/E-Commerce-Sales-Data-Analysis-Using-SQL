@@ -20,7 +20,7 @@ The dataset used in this project is stored in CSV format and includes the follow
 - Transaction date
 - Customer Location
 
- Business Objectives
+ ## Business Objectives
 The main objectives of this project are:
 - To analyze overall sales performance
 - To calculate key business KPIs using SQL
@@ -40,7 +40,6 @@ The following key performance indicators (KPIs) were calculated using SQL:
 7. Top customers by total spend  
 8. Orders by customer location
 9. total quantity of product sold
-
 
  ## Key Insights Summary
 
