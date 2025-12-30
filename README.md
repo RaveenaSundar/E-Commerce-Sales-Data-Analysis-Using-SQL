@@ -7,7 +7,14 @@ This project mainly focuses on analyzing e-commerce sales data using SQL to unde
 - **SQL** (Oracle)
 - **Dataset Format:** CSV
 - **Source:** Kaggle (E-Commerce Sales Dataset)
-  
+
+ ## Dataset
+
+- File: ecommerce_sales_data.csv
+- Size: ~9.8 MB
+- Format: CSV
+
+
  ## Dataset Description
 The dataset used in this project is stored in CSV format and includes the following key columns:
 - Customer ID
