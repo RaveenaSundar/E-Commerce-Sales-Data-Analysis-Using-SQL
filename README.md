@@ -26,6 +26,9 @@ The dataset used in this project is stored in CSV format and includes the follow
 - Transaction date
 - Customer Location
 
+<img width="250" src="https://github.com/user-attachments/assets/54180c05-832c-489b-8f5e-34d1d8742608" />
+
+
  ## Business Objectives
 The main objectives of this project are:
 - To analyze overall sales performance
