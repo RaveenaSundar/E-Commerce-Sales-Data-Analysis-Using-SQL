@@ -15,18 +15,8 @@ This project mainly focuses on analyzing e-commerce sales data using SQL to unde
 - Format: CSV
 
  ## Dataset Description
-The dataset used in this project is stored in CSV format and includes the following key columns:
-- Customer ID
-- Product ID
-- Product Category
-- Quantity
-- Price
-- Payment method
-- Transaction date
-- Customer Location
 
-<img width="500" src="https://github.com/user-attachments/assets/293c708d-7749-4dd6-b005-d2b10ef24222" />
-
+<img width="550" src="https://github.com/user-attachments/assets/293c708d-7749-4dd6-b005-d2b10ef24222" />
 
  ## Business Objectives
 The main objectives of this project are:
