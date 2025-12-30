@@ -46,7 +46,7 @@ The following key performance indicators (KPIs) were calculated using SQL:
        SELECT COUNT(DISTINCT TransactionID) AS total_orders
         FROM ecommerce_sales_data;
 
-<img width="468" height="105" alt="1)" src="https://github.com/user-attachments/assets/cf05f463-9ec8-463b-a528-52f197edbdaa" />
+<img width="200" height="70" alt="1)" src="https://github.com/user-attachments/assets/cf05f463-9ec8-463b-a528-52f197edbdaa" />
 
 
 
