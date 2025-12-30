@@ -41,6 +41,9 @@ The following key performance indicators (KPIs) were calculated using SQL:
 8. Orders by customer location
 9. total quantity of product sold
 
+    
+<img src="images/total_orders.png" width="500">
+
 
  ## Key Insights Summary
 
