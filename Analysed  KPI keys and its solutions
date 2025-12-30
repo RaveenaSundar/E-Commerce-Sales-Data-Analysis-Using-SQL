@@ -14,18 +14,18 @@ Analysed KPI keys:
 
 Solutions:
 
-1) Total Number of Orders
+1) Total Number of Orders:
    SELECT COUNT(DISTINCT TransactionID) AS total_orders
    FROM ecommerce_sales_data;
 
 
-2) Total revenue generated
+2) Total revenue generated:
    SELECT 
     SUM(Quantity * Price * (1 - Discount)) AS total_revenue
   FROM ecommerce_sales_data;
 
 
-3) Top 5 best-selling products
+3) Top 5 best-selling products:
   SELECT *
   FROM ( 
        SELECT ProductID,
@@ -36,14 +36,16 @@ Solutions:
  )
  WHERE ROWNUM <= 5;
 
-4) Average Order Value (AOV) 
+
+4) Average Order Value (AOV): 
     SELECT
     ROUND(
          SUM(Quantity * Price * (1 - Discount)) / COUNT(DISTINCT TransactionID),2) 
        AS avg_order_value
    FROM ecommerce_sales_data;
 
-5) Revenue by product category
+
+5) Revenue by product category:
    SELECT 
      ProductCategory,
      SUM(Quantity * Price * (1 - Discount)) AS category_revenue
@@ -51,7 +53,8 @@ Solutions:
   GROUP BY ProductCategory
  ORDER BY category_revenue DESC;
 
-6) Monthly sales trend 
+
+6) Monthly sales trend:
     SELECT 
         EXTRACT(MONTH FROM TransactionDate) AS month,
         SUM(Quantity * Price * (1 - Discount)) AS monthly_sales
@@ -59,7 +62,8 @@ Solutions:
    GROUP BY EXTRACT(MONTH FROM TransactionDate)
    ORDER BY month;
 
-7) Top customers by total spend
+
+7) Top customers by total spend:
     SELECT *
     FROM (
     SELECT 
@@ -71,7 +75,8 @@ Solutions:
    )
    WHERE ROWNUM <= 5;
 
-8) Orders by Customer Location
+
+8) Orders by Customer Location:
    SELECT  
     CustomerLocation,
     COUNT(DISTINCT TransactionID) AS total_orders
@@ -79,7 +84,8 @@ Solutions:
    GROUP BY CustomerLocation
    ORDER BY total_orders DESC;
 
-9)Total Quantity of Products Sold
+
+9)Total Quantity of Products Sold:
   SELECT 
     SUM(Quantity) AS total_products_sold
 FROM ecommerce_sales_data;
