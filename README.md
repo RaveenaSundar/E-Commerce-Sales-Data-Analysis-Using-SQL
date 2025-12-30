@@ -14,7 +14,6 @@ This project mainly focuses on analyzing e-commerce sales data using SQL to unde
 - Size: ~9.8 MB
 - Format: CSV
 
-
  ## Dataset Description
 The dataset used in this project is stored in CSV format and includes the following key columns:
 - Customer ID
@@ -26,9 +25,9 @@ The dataset used in this project is stored in CSV format and includes the follow
 - Transaction date
 - Customer Location
 
-<img width="250" src="https://github.com/user-attachments/assets/54180c05-832c-489b-8f5e-34d1d8742608" />
+<img width="300" src="https://github.com/user-attachments/assets/24695b64-8453-4b84-906f-fe0dcfcf7d84" />
 
-
+  
  ## Business Objectives
 The main objectives of this project are:
 - To analyze overall sales performance
