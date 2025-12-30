@@ -41,6 +41,23 @@ The following key performance indicators (KPIs) were calculated using SQL:
 8. Orders by customer location
 9. total quantity of product sold
 
+
+1) Total Number of Orders
+       SELECT COUNT(DISTINCT TransactionID) AS total_orders
+        FROM ecommerce_sales_data;
+
+<img width="468" height="105" alt="1)" src="https://github.com/user-attachments/assets/cf05f463-9ec8-463b-a528-52f197edbdaa" />
+
+
+
+
+
+
+
+
+
+   
+
  ## Key Insights Summary
 
 Identified total revenue and overall order volume
